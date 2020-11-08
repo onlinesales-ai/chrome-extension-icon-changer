@@ -1,5 +1,16 @@
 chrome.extension.sendMessage({}, function(response) {
     var iconMap = {
+        'mail.google.com': {
+            'icons':{
+                'ico':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '32x32':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '64x64':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '36x36':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '48x48':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '96x96':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico',
+                '512x512':'https://res.cloudinary.com/onlinesales/image/upload/v1604748755/gmail-icon_oum18t.ico'
+            }
+        },
         'calendar.google.com': {
             'icons':{
                 'ico':'https://res.cloudinary.com/onlinesales/image/upload/favicon_upwuk4.ico',
